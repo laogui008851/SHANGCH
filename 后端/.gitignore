@@ -1,0 +1,16 @@
+# Maven
+**/target/
+
+# logs
+**/*.log
+
+# IDE
+**/.idea/
+**/.vscode/
+
+# OS
+**/.DS_Store
+
+# credentials
+**/credentials
+**/*.credentials

@@ -1,0 +1,27 @@
+# dependencies
+**/node_modules/
+**/.pnpm-store/
+**/.pnpm/
+
+# build outputs
+**/dist/
+**/build/
+**/target/
+**/bin/
+
+# logs
+**/*.log
+
+# IDE
+**/.idea/
+**/.vscode/
+
+# OS
+**/.DS_Store
+
+# credentials
+**/credentials
+**/*.credentials
+
+# database dumps
+数据库1.sql/
