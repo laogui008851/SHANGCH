@@ -1,0 +1,1 @@
+import{_ as e,c,o as s}from"./index-9e7fbb1d.js";const r={};function o(t,_){return s(),c("div",null," 404 ")}const a=e(r,[["render",o],["__file","C:/Users/DIY/Desktop/\u6E90\u7801/H5-\u5546\u5BB6/src/views/404.vue"]]);export{a as default};

@@ -1,0 +1,32 @@
+services:
+  # Zookeeper 服务保持不变
+  zookeeper:
+    image: zookeeper:3.9.1
+    container_name: zookeeper
+    network_mode: host
+    restart: always
+    environment:
+      ZOO_MY_ID: 1
+      TZ: America/New_York
+  
+  mall:
+    environment:
+      TZ: America/New_York
+      # 新增 JVM 参数，解决模块访问权限问题
+      JAVA_OPTS: "--add-opens java.base/java.math=ALL-UNNAMED -Xms512m -Xmx1024m"
+    image: mall
+    container_name: mall
+    network_mode: host
+    restart: always
+    volumes:
+      - /root/volumes/images:/usr/local/tomcat/webapps/project/images
+  
+  mall-tool:
+    environment:
+      TZ: America/New_York
+      # 新增 JVM 参数，解决模块访问权限问题
+      JAVA_OPTS: "--add-opens java.base/java.math=ALL-UNNAMED -Xms512m -Xmx1024m"
+    image: mall-tool
+    container_name: mall-tool
+    network_mode: host
+    restart: always

@@ -1,0 +1,1 @@
+import{O as t}from"./index-19a98339.js";const s=e=>t({url:"/wap/api/newOnlinechat!list.action",method:"GET",params:{message_id:e.message_id||"",show_img:e.show_img||!0}}),r=()=>t({url:"/wap/api/newOnlinechat!unread.action",method:"GET"}),i=(e="text",a="")=>t({url:"/wap/api/newOnlinechat!send.action",method:"GET",params:{type:e,content:a}});export{r as _,s as a,i as b};

@@ -1,0 +1,33 @@
+亚马逊的 文件存储 配置文件 在 aws 里配置
+
+
+邮箱配置地址
+admin/web-inf/classes/config.properties
+
+推单下单地址 注意 http https 协议 不然下单不成功 还有域名
+mall-tools.jap
+修改里面yml文件的数据库访问地址、redis地址,推单下单地址
+mall:
+  order:
+    api: http://f13f2f75.org/wap/api/order-local!submit.action
+
+///邮件 因为修改的代码写在serviceImpl会不生效，所以发送邮箱的代码写在IdentifyingCodeController中，，邮箱用户名和密码也写在代码里面
+
+
+夜云:
+sjygsdgd@outlook.com
+aa588520..
+
+夜云:
+ssh root@47.89.235.85
+df.123888
+
+
+cd /root/java-mall-project
+    git pull
+    docker stop mall
+    docker rm mall
+    docker rmi mall
+    ./build.sh
+    docker compose up -d mall
+    docker logs -f mall

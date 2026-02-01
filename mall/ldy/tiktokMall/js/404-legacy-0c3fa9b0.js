@@ -1,0 +1,1 @@
+System.register(["./index-legacy-5ae7697d.js"],(function(e,t){"use strict";var n,r,u;return{setters:[e=>{n=e._,r=e.c,u=e.o}],execute:function(){e("default",n({},[["render",function(e,t){return u(),r("div",null," 404 ")}],["__file","/mnt/e/编译后/前端/H5-商家/src/views/404.vue"]]))}}}));

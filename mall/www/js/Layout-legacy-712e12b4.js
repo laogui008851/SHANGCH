@@ -1,0 +1,1 @@
+System.register(["./index-legacy-eea0a6ed.js"],(function(e,t){"use strict";var r,n,s,u;return{setters:[e=>{r=e._,n=e.aw,s=e.s,u=e.o}],execute:function(){e("default",r({},[["render",function(e,t){const r=n("router-view");return u(),s(r)}],["__file","/Users/wangjun/Downloads/mall-app-h5/src/views/Layout.vue"]]))}}}));

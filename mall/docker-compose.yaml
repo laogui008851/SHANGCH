@@ -1,0 +1,28 @@
+# Use root/example as user/password credentials
+version: '3.1'
+
+services:
+  zookeeper:
+    image: zookeeper:3.9.1
+    container_name: zookeeper
+    network_mode: host
+    restart: always
+    environment:
+      ZOO_MY_ID: 1
+      TZ: America/New_York
+  mall:
+    environment:
+      TZ: America/New_York
+    image: mall
+    container_name: mall
+    network_mode: host
+    restart: always
+    volumes:
+      - /root/volumes/images:/usr/local/tomcat/webapps/project/images
+  mall-tool:
+    environment:
+      TZ: America/New_York
+    image: mall-tool
+    container_name: mall-tool
+    network_mode: host
+    restart: always

@@ -1,0 +1,1 @@
+System.register(["./index-legacy-3bdd5dfe.js"],(function(e,n){"use strict";var r,t,s;return{setters:[e=>{r=e._,t=e.c,s=e.o}],execute:function(){e("default",r({},[["render",function(e,n){return s(),t("div",null," 404 ")}],["__file","/Users/wangjun/Downloads/mall-app-h5/src/views/404.vue"]]))}}}));

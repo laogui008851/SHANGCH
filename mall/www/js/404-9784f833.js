@@ -1,0 +1,1 @@
+import{_ as e,c,o as n}from"./index-9fb53779.js";const s={};function o(r,a){return n(),c("div",null," 404 ")}const t=e(s,[["render",o],["__file","/Users/wangjun/Downloads/mall-app-h5/src/views/404.vue"]]);export{t as default};

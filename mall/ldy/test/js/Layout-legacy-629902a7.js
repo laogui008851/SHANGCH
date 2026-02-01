@@ -1,0 +1,1 @@
+System.register(["./index-legacy-6ad9d2f3.js"],(function(e,t){"use strict";var r,n,u,s;return{setters:[e=>{r=e._,n=e.y,u=e.aE,s=e.o}],execute:function(){e("default",r({},[["render",function(e,t){const r=u("router-view");return s(),n(r)}]]))}}}));

@@ -1,0 +1,1 @@
+System.register(["./index-legacy-48337caa.js"],(function(e,t){"use strict";var r,s,n,u;return{setters:[e=>{r=e._,s=e.az,n=e.z,u=e.o}],execute:function(){e("default",r({},[["render",function(e,t){const r=s("router-view");return u(),n(r)}],["__file","C:/Users/DIY/Desktop/源码/H5-商家/src/views/Layout.vue"]]))}}}));

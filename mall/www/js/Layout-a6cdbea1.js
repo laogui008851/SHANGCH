@@ -1,0 +1,1 @@
+import{_ as o,aw as r,s,o as n}from"./index-9fb53779.js";const t={};function a(c,_){const e=r("router-view");return n(),s(e)}const l=o(t,[["render",a],["__file","/Users/wangjun/Downloads/mall-app-h5/src/views/Layout.vue"]]);export{l as default};

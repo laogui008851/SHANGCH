@@ -1,0 +1,1 @@
+import{b5 as r}from"./index-19a98339.js";const t=new Proxy({},{get(n,e){throw new Error(`Module "" has been externalized for browser compatibility. Cannot access ".${e}" in client code.`)}}),o=Object.freeze(Object.defineProperty({__proto__:null,default:t},Symbol.toStringTag,{value:"Module"})),i=r(o);export{i as r};

@@ -1,0 +1,1 @@
+import{_ as o,az as r,z as t,o as s}from"./index-9e7fbb1d.js";const c={};function n(_,a){const e=r("router-view");return s(),t(e)}const f=o(c,[["render",n],["__file","C:/Users/DIY/Desktop/\u6E90\u7801/H5-\u5546\u5BB6/src/views/Layout.vue"]]);export{f as default};

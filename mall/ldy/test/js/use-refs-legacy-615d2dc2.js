@@ -1,0 +1,1 @@
+System.register(["./index-legacy-6ad9d2f3.js"],(function(e,t){"use strict";var n,r;return{setters:[e=>{n=e.r,r=e.bR}],execute:function(){e("u",(function(){const e=n([]),t=[];return r((()=>{e.value=[]})),[e,n=>(t[n]||(t[n]=t=>{e.value[n]=t}),t[n])]}))}}}));

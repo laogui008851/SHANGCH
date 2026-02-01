@@ -1,0 +1,1 @@
+import{_ as e,c,o as n}from"./index-754777e9.js";const r={};function t(_,o){return n(),c("div",null," 404 ")}const a=e(r,[["render",t],["__file","/mnt/e/\u7F16\u8BD1\u540E/\u524D\u7AEF/H5-\u5546\u5BB6/src/views/404.vue"]]);export{a as default};
